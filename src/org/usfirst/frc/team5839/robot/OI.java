@@ -41,7 +41,7 @@ public class OI {
 		for (int i = 1; i < 5; i++) {
 			SmartDashboard.putData("Move CAN " + i + ": ", new ExampleCommand(i));
 		}
-		for (double i = -1; i < 2; i =+ 0.1){
+		for (int i = -1; i < 2; i =+ 1){
 			SmartDashboard.putData("Move Talon at " + i + ": ", new MoveTalon(i));
 		}
 	}
